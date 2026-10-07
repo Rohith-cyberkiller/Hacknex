@@ -1,0 +1,118 @@
+/* Professional Dark Forensic Dashboard Design */
+:root {
+  --bg-primary: #0b0f19;
+  --bg-surface: #111827;
+  --bg-card: #1f2937;
+  --border-color: #374151;
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --accent-cyan: #38bdf8;
+  --accent-blue: #60a5fa;
+  --status-real: #10b981;
+  --status-suspicious: #f59e0b;
+  --status-fake: #ef4444;
+}
+
+/* Metric card styling */
+.forensic-card {
+  background: #151d2c;
+  border: 1px solid #283548;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.forensic-card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card-value {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.card-sub {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 0.35rem;
+}
+
+/* Status Badges */
+.badge-real {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.badge-suspicious {
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.badge-fake {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.badge-mode {
+  background: #1e293b;
+  color: #94a3b8;
+  border: 1px solid #475569;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-family: monospace;
+  display: inline-block;
+}
+
+/* Evidence item callouts */
+.evidence-item {
+  background: #141c2a;
+  border-left: 4px solid #38bdf8;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.92rem;
+  color: #e2e8f0;
+}
+
+.limitation-item {
+  background: #181c24;
+  border-left: 4px solid #64748b;
+  padding: 0.65rem 0.95rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.88rem;
+  color: #94a3b8;
+}
