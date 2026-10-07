@@ -1,0 +1,24 @@
+# ==============================================================================
+# Visual Forensics / Deepfake Detection - Core Dependencies (Phase 1 & Phase 2)
+# ==============================================================================
+
+# Core Numerical & Image Processing
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scipy>=1.11.0
+
+# Deep Learning Framework (CPU / CUDA compatible)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Face Extraction & Landmark Alignment (Phase 2 Active)
+facenet-pytorch>=2.5.0
+
+# ==============================================================================
+# Future Phase Extensions (Phase 3 & Phase 4)
+# Uncomment or install when integrating full classification models:
+# ==============================================================================
+# Model Backbones & Explainability (Phase 3):
+# timm>=0.9.12              # ConvNeXt, EfficientNet backbones
+# pytorch-grad-cam>=0.2.1   # Grad-CAM, Score-CAM implementations
